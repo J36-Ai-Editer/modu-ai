@@ -5,7 +5,7 @@
 | 원본 저장소 | 기준/참고 범위 | 이 저장소에 반영한 방식 |
 |---|---|---|
 | https://github.com/AI-HealthCare-05/AH_05_02 | 오즈코딩스쿨 AH-05 팀 프로젝트. 로컬 확인 커밋 `8364a21753fe5f55740423af92fc92af5f88e0ca`. `src/frontend/index.html`의 기록·요약·초대 공유 안내와 `src/frontend/forest-game.js`의 게임형 참여 개념 | 기록 → 진행 요약 → 공동 목표 → 보상 흐름을 라이브러리 없는 독립 예제로 새로 작성 |
-| https://github.com/J36-Ai-Editer/AI-Social-Issue-Challenge | 생활습관 챌린지로 확장한 프로젝트의 공개 경로 | 프로젝트 계보·참고 경로만 기재. 파일·이미지·개인 자료는 가져오지 않음 |
+| https://github.com/J36-Ai-Editer/AI-and-Social-Issue | 생활습관 챌린지로 확장한 프로젝트의 공개 경로 | 프로젝트 계보·참고 경로만 기재. 파일·이미지·개인 자료는 가져오지 않음 |
 
 ## 2026-10-31 재현 작업
 
