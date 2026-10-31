@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+examples/synthetic_model.json
+node_modules/
+.DS_Store

@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>모두의 AI · 생활습관 재현 예제</title><link rel="stylesheet" href="app.css">
+<body><main><header><p class="eyebrow">MODU AI / LOCAL REPRODUCTION</p><h1>작은 실천을 함께 기록해요</h1><p>API 키 없이 실행하는 생활습관 기록·대시보드·공동 목표 예제</p><aside>학습용 합성 시연 데이터입니다. 건강 진단·위험 예측을 제공하지 않습니다. 기록은 이 브라우저에만 저장됩니다.</aside></header>
+<section><h2>오늘의 기록</h2><label>기록 날짜 <input type="date" id="day"></label><div id="tasks"></div><p id="status" role="status"></p></section>
+<section><h2>나의 대시보드</h2><div class="stats"><article><strong id="today">0%</strong><span>선택한 날짜 달성률</span></article><article><strong id="week">0%</strong><span>선택한 날짜까지 최근 7일</span></article><article><strong id="points">0</strong><span>누적 완료 기록</span></article></div><h3>최근 7일</h3><div id="bars"></div></section>
+<section><h2>함께하는 목표</h2><p>익명 A·B의 합성 기록과 내 최근 7일 기록을 합쳐 목표 30회를 채워봅니다. 같은 브라우저 안의 동작 예제이며 실제 초대나 동기화는 하지 않습니다.</p><progress id="group" max="30" value="0"></progress><p id="group-text"></p></section>
+<section class="forest"><h2>실천으로 자라는 숲</h2><div id="trees" aria-label="기록에 따른 성장 단계"></div><p id="forest-text"></p></section>
+<section><h2>기록 관리</h2><button id="export">JSON 내보내기</button><label class="upload">JSON 가져오기 <input id="import" type="file" accept="application/json"></label><button class="secondary" id="reset">기록 초기화</button><p>이름·전화번호·검진 결과를 입력하는 칸은 없습니다. 내보낸 파일도 본인이 관리하세요.</p></section>
+<footer><a href="PROVENANCE.md">원본과 참고 범위</a> · <a href="PRIVACY.md">개인정보 안내</a> · <a href="prompts/01-start.md">재현 프롬프트</a></footer></main><script src="app.js"></script></body></html>

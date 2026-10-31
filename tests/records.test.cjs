@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const {validate,summarize,validDate}=require('../app.js');
+const d=validate({version:1,days:{'2026-01-01':[true,false,true],'2026-01-02':[true,true,true]}});
+assert.equal(summarize(d,'2026-01-02').today,100);
+assert.equal(summarize(d,'2026-01-02').weekCount,5);
+assert.equal(summarize(d,'2026-01-02').week,24);
+assert.equal(validDate('2026-02-30'),false);
+assert.throws(()=>validate({version:1,days:{'2026-01-01':[true,'false',true]}}));
+assert.throws(()=>validate({version:1,days:JSON.parse('{"__proto__":[true,true,true]}')}));
+console.log('record calculation, date validation, malformed import and unsafe keys: passed');
